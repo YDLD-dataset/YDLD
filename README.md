@@ -90,7 +90,7 @@ upzip YDLD_samples.zip
 
 5. Please run the following commands in YDLD root path to run demo. 
 ```
-python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <checkpoint path> --device gpu
+python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <checkpoint path> --device cuda
 ```
 
 ## Demo Results

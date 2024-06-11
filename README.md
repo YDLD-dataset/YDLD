@@ -75,7 +75,7 @@ python setup.py develop
 
 2. Upzip the YDLD sample dataset in appropriate directory.
 
-    ```bash
+```bash
     upzip YDLD_samples.zip
  ```
 

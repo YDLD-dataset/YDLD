@@ -69,7 +69,6 @@ python setup.py develop
 ```
 4. Install aitodpycocotools library as follows:
 ```
-cd YDLD
 pip install "git+https://github.com/jwwangchn/cocoapi-aitod.git#subdirectory=aitodpycocotools"
 ```
 

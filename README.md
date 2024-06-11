@@ -95,6 +95,10 @@ python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <ch
 
 ## Demo Results
 
+![Figures_002](Figures/demo1.png)
+![Figures_003](Figures/demo2.png)
+![Figures_004](Figures/demo3.png)
+
 ## License
 
 This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

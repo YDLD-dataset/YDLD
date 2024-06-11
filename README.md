@@ -11,7 +11,6 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |                              |            Google Drive             |            Description            |
 |:----------------------------:|:-----------------------------------:|:----------------------------------:|
 | YDLD sample images           |                link                 | A hundred sample images from the YDLD dataset. |
-                                           |
 
 
 ## YDLD Benchmark Results

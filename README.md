@@ -15,7 +15,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 The full YDLD dataset will be released soon!
 
-## YDLD Benchmark Results
+## YDLD Benchmark Leaderboard
 <center>
   
 | Detectors                                      | Publications | Year | mAP  | AP50 | AP75 | APvt | APt  | APs  | APm  |

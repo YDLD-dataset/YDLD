@@ -1,5 +1,5 @@
 _base_ = [
-    '../_base_/datasets/coco_light_detection.py', '../_base_/default_runtime.py'
+    '../_base_/datasets/ydld_detection.py', '../_base_/default_runtime.py'
 ]
 model = dict(
     type='DINO',

@@ -1,4 +1,4 @@
-# YDLD (YouTube Driving Light Detection) Dataset
+# YouTube Driving Light Detection (YDLD) Dataset
 
 ## Overview
 

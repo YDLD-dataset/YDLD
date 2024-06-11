@@ -56,7 +56,7 @@ The full YDLD dataset will be released soon!
 
  1. Clone the repo
  ```
-    git clone https://github.com/YDLD-dataset/YDLD
+git clone https://github.com/YDLD-dataset/YDLD
  ```
 
  2. Install MMdetection. Our provided model is trained on MMDetection. We recommend to install <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>.<br> Please install the MMDetection(https://github.com/open-mmlab/mmdetection) in advance. 
@@ -76,13 +76,15 @@ python setup.py develop
 2. Upzip the YDLD sample dataset in appropriate directory.
 
 ```
-    upzip YDLD_samples.zip
- ```
+upzip YDLD_samples.zip
+```
 
 4. Download weight file which is we provide.
 
 5. Please run the following commands in YDLD root path to run demo. 
-
+```
+python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <checkpoint path> --device gpu
+```
 
 ## License
 

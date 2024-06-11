@@ -14,7 +14,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 
 
-The full YDLD dataset will be released soon!
+* **The full YDLD dataset will be released soon!**
 
 ## YDLD Benchmark Leaderboard
 <center>

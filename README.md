@@ -73,9 +73,15 @@ python setup.py develop
 
 1. Download dataset
 
-2. Download weight file which is we provide.
+2. Upzip the YDLD sample dataset in appropriate directory.
 
-3. Please run the following commands in YDLD root path to run demo. 
+    ```bash
+    upzip YDLD_samples.zip
+ ```
+
+4. Download weight file which is we provide.
+
+5. Please run the following commands in YDLD root path to run demo. 
 
 
 ## License

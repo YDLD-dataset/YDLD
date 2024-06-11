@@ -71,6 +71,12 @@ python setup.py develop
 
 ## Running the demo
 
+1. Download dataset
+
+2. Download weight file which is we provide.
+
+3. Please run the following commands in YDLD root path to run demo. 
+
 
 ## License
 

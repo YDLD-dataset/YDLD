@@ -65,6 +65,7 @@ git clone https://github.com/YDLD-dataset/YDLD
 
 ```
 cd YDLD
+cd mmdetection
 python setup.py develop
 ```
 4. Install aitodpycocotools library as follows:

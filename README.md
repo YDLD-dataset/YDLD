@@ -67,6 +67,12 @@ git clone https://github.com/YDLD-dataset/YDLD
 cd YDLD
 python setup.py develop
 ```
+4. Install aitodpycocotools library as follows:
+```
+cd YDLD
+pip install "git+https://github.com/jwwangchn/cocoapi-aitod.git#subdirectory=aitodpycocotools"
+```
+
 
 
 ## Running the demo

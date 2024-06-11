@@ -2,6 +2,8 @@
 
 ## Abstract
 
+## Dataset Download
+
 
 ## Benchmark Results
 <center>
@@ -35,4 +37,6 @@
 | SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
 
 
-<\center>
+## License
+
+This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

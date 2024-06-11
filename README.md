@@ -9,6 +9,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 
 ## Update
+ * **2024.06.11**: Update the YDLD sample dataset, data loader, and demo codes. 
  * **2024.06.11**: This repo is created. 
 
 

@@ -44,7 +44,7 @@ The full YDLD dataset will be released soon!
 
 
 ## Dataset Download
-|                              |            Google Drive             |            Description            |
+|             Dataset                 |            Google Drive             |            Description            |
 |:----------------------------:|:-----------------------------------:|:----------------------------------:|
 | YDLD sample images           |               [link](https://drive.google.com/file/d/1RyFzS1q0rxtUx_Wt18Mbuj3i48TwY1kg/view?usp=drive_link)                 | A hundred sample images from the YDLD dataset. |
 

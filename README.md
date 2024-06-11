@@ -37,6 +37,11 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 | SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
 
 
+## Installation
+
+Our provided model is trained on MMDetection. We recommend to install <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>.<br> 
+Please install the MMDetection(https://github.com/open-mmlab/mmdetection) in advance. 
+
 ## License
 
 This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

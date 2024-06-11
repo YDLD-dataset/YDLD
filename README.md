@@ -51,7 +51,7 @@ The full YDLD dataset will be released soon!
 
 |                Detector              |            Google Drive             |       mAP             |         Description            |
 |:----------------------------:|:-----------------------------------:|:-----------------------------------:|:----------------------------------:|
-| DINO          |                link          |  22.6     | The pre-trained weight file for DINO detector. |
+| DINO          |               [ link](https://drive.google.com/file/d/12oX3iSd9BGsxtkgNWjXiY75bxoq94UU3/view?usp=drive_link)          |  22.6     | The pre-trained weight file for DINO detector. |
 ## Installation
 
  1. Clone the repo

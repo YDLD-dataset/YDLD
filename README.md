@@ -42,10 +42,14 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 ## Installation
 
-Our provided model is trained on MMDetection. We recommend to install <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>.<br> 
-Please install the MMDetection(https://github.com/open-mmlab/mmdetection) in advance. 
+ 1. Clone the repo
+ ```bash
+    git clone https://github.com/YDLD-dataset/YDLD
+ ```
 
-For running the demo file, 
+ 2. Install MMdetection. Our provided model is trained on MMDetection. We recommend to install <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>.<br> Please install the MMDetection(https://github.com/open-mmlab/mmdetection) in advance. 
+
+3. Please run the following commands in YDLD root path to run demo file. 
 
 ```
 cd YDLD

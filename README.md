@@ -92,6 +92,8 @@ upzip YDLD_samples.zip
 python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <checkpoint path> --device gpu
 ```
 
+## Demo Results
+
 ## License
 
 This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

@@ -55,7 +55,7 @@ The full YDLD dataset will be released soon!
 ## Installation
 
  1. Clone the repo
- ```bash
+ ```
     git clone https://github.com/YDLD-dataset/YDLD
  ```
 
@@ -75,7 +75,7 @@ python setup.py develop
 
 2. Upzip the YDLD sample dataset in appropriate directory.
 
-```bash
+```
     upzip YDLD_samples.zip
  ```
 

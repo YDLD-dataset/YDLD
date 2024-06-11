@@ -11,10 +11,6 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 ## Update
  * **2024.06.11**: This repo is created. 
 
-## Dataset Download
-|                              |            Google Drive             |            Description            |
-|:----------------------------:|:-----------------------------------:|:----------------------------------:|
-| YDLD sample images           |                link                 | A hundred sample images from the YDLD dataset. |
 
 
 The full YDLD dataset will be released soon!
@@ -44,6 +40,12 @@ The full YDLD dataset will be released soon!
 | RFLA w/t PAA †                                 |     ECCV     | 2022 | 21.6 | 50.8 | 14.7 | 11.0 | 19.4 | 33.4 | 40.2 |
 | SS-FLD w/t DINO                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
 | SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
+
+
+## Dataset Download
+|                              |            Google Drive             |            Description            |
+|:----------------------------:|:-----------------------------------:|:----------------------------------:|
+| YDLD sample images           |                link                 | A hundred sample images from the YDLD dataset. |
 
 ## Weight File Download
 

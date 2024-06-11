@@ -2,7 +2,7 @@
 
 ## Overview
 
-The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the multi-source light detection (LD) problem under various driving scenarios. Despite the critical importance of LD for autonomous driving and night vision, this area has not received as much focus as other object detection (OD) tasks. One significant reason for this oversight is the lack of publicly available LD benchmark datasets.  **YDLD** dataset is contains 3.5k images and 116k box annotations for three light sources: a vehicle light, a traffic signal, and a streetlight.
+The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the multi-source light detection (LD) problem under various driving scenarios. Despite the critical importance of LD for autonomous driving and night vision, this area has not received as much focus as other object detection (OD) tasks. One significant reason for this oversight is the lack of publicly available LD benchmark datasets.  The **YDLD** dataset is contains 3.5k images and 116k box annotations for three light sources: a vehicle light, a traffic signal, and a streetlight.
 
 
 ## Dataset Download

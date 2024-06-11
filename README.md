@@ -45,6 +45,13 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 Our provided model is trained on MMDetection. We recommend to install <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>.<br> 
 Please install the MMDetection(https://github.com/open-mmlab/mmdetection) in advance. 
 
+For running the demo file, 
+
+```
+cd YDLD
+python setup.py develop
+```
+
 ## License
 
 This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

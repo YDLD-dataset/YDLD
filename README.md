@@ -43,7 +43,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |20| YOLOF                                          |     CVPR     | 2021 |  5.7 | 13.3 |  4.3 |  0.0 |  3.7 |  7.2 | 27.4 |
 
 
-
+**We will update this leaderboard if you submit your detection results to us. We will notice the contactable E-mail when we release full dataset.**
 
 
 

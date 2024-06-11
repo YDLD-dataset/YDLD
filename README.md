@@ -30,7 +30,7 @@ The full YDLD dataset will be released soon!
 | YOLOX                                          |     CVPR     | 2021 | 17.9 | 42.3 | 12.1 |  8.1 | 14.4 | 27.5 | 39.1 |
 | PAA                                            |     ECCV     | 2020 | 21.6 | 48.0 | 16.1 |  9.7 | 18.0 | 34.6 | 43.6 |
 | Deformable DETR                                |     ICLR     | 2021 | 16.7 | 41.9 |  9.7 |  7.3 | 14.0 | 26.4 | 34.4 |
-| DINO                                           |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
+| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
 | SoftTeacher                                    |     ICCV     | 2021 |  8.4 | 15.9 |  7.9 |  0.3 |  6.4 |  9.3 | 39.4 |
 | MeanTeacher                                    |   NeurIPS    | 2017 | 14.4 | 32.5 | 10.7 |  9.0 | 16.0 | 25.2 | 16.2 |
 | ConsistentTeacher                              |     CVPR     | 2023 | 19.1 | 42.6 | 14.7 |  7.4 | 15.0 | 31.7 | 42.7 |

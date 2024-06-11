@@ -77,9 +77,9 @@ pip install "git+https://github.com/jwwangchn/cocoapi-aitod.git#subdirectory=ait
 
 ## Running the demo
 
-1. Download dataset
+1. Download YDLD sample dataset. 
 
-2. Upzip the YDLD sample dataset in appropriate directory.
+3. Upzip the YDLD sample dataset in appropriate directory.
 
 ```
 upzip YDLD_samples.zip

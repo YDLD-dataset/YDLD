@@ -8,6 +8,10 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
  * **2024.06.11**: This repo is created. 
 
 ## Dataset Download
+|                              |            Google Drive             |            Description            |
+|:----------------------------:|:-----------------------------------:|:----------------------------------:|
+| YDLD sample images           |                link                 | A hundred sample images from the YDLD dataset. |
+                                           |
 
 
 ## YDLD Benchmark Results

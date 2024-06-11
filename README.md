@@ -100,6 +100,8 @@ python demo/image_demo.py <img_path> configs/ydld/ydld_dino_12e.py --weights <ch
 
 ## Demo Results
 
+**Click to view larger images.**
+
 ![Figures_002](Figures/demo1.png)
 ![Figures_003](Figures/demo2.png)
 ![Figures_004](Figures/demo3.png)

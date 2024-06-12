@@ -19,6 +19,8 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 ## SS-FLD 
 
+![Figures_001](Figures/SS-FLD.png)
+
 The YDLD benchmark evaluation: we implement and evaluate the different types of the recent 20 detectors by using our lightness focal loss and SS-FLD methods.
 
 ## YDLD Benchmark Leaderboard

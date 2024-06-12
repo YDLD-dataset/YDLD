@@ -124,4 +124,4 @@ python demo/image_demo.py <your img path> configs/ydld/ydld_dino_12e.py --weight
 
 ## License
 
-This project is licensed under CC BY-NC-SA 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 
+This project is licensed under CC BY-NC-ND 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license. 

@@ -9,7 +9,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 
 ## Update
- * ** Our Paper "A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection" is accepted by NeurIPS2024! **
+ * **Our Paper "A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection" is accepted by NeurIPS2024! **
  * **2024.06.11**: Update the YDLD sample dataset, data loader, and demo codes. 
  * **2024.06.11**: This repo is created. 
 

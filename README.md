@@ -16,6 +16,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 
 * **The full YDLD dataset will be released soon!**
+* **We are reorganizing the code to improve readability and will release it as soon as it's complete.**
 
 
 ## SS-FLD 

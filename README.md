@@ -1,7 +1,8 @@
 # YouTube Driving Light Detection (YDLD) Dataset
 
-## We are reorganizing the code to improve readability and will release it as soon as possible.
-## We are also correcting some erroneous and missing annotations. This work will also be made public as soon as possible.
+**We are reorganizing the code to improve readability and will release it as soon as possible.**
+
+**We are also correcting some erroneous and missing annotations. This work will also be made public as soon as possible.**
 
 ## Overview
 

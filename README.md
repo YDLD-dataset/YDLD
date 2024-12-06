@@ -1,8 +1,7 @@
 # YouTube Driving Light Detection (YDLD) Dataset
 
 **We are reorganizing the code to improve readability and will release it as soon as possible.**
-
-**We are also correcting some erroneous and missing annotations. This work will also be made public as soon as possible.**
+**We are also correcting some erroneous and missing annotations. We will continuously publish updated annotation files.**
 
 ## Overview
 
@@ -14,14 +13,15 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 ## Update
 **Our Paper "A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection" is accepted by NeurIPS2024!**
+ * **2024.12.06**: Update SS-FLD w/ DINO and full YDLD dataset.
  * **2024.06.11**: Update the YDLD sample dataset, data loader, and demo codes. 
  * **2024.06.11**: This repo is created. 
 
 
 
-* **The full YDLD dataset will be released soon!**
+<!-- * **The full YDLD dataset will be released soon!** -->
 * **We are reorganizing the code to improve readability and will release it as soon as possible.**
-* **We are also correcting some erroneous and missing annotations. This work will also be made public as soon as possible.**
+* **We are also correcting some erroneous and missing annotations. We will continuously publish updated annotation files.**
 
 ## SS-FLD 
 
@@ -36,8 +36,8 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |                                       |  Detectors                                      | Publications | Year | mAP  | AP50 | AP75 | APvt | APt  | APs  | APm  |
 |:----------------------------------------------:|:----------------------------------------------:|:------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |1| SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
-|2| SS-FLD w/t DINO                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
-|3| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
+|2| [SS-FLD w/t DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
+|3| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
 |4| RFLA w/t PAA                                 |     ECCV     | 2022 | 21.6 | 50.8 | 14.7 | 11.0 | 19.4 | 33.4 | 40.2 |
 |5| PAA                                            |     ECCV     | 2020 | 21.6 | 48.0 | 16.1 |  9.7 | 18.0 | 34.6 | 43.6 |
 |6| ConsistentTeacher                              |     CVPR     | 2023 | 19.1 | 42.6 | 14.7 |  7.4 | 15.0 | 31.7 | 42.7 |
@@ -65,13 +65,15 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 ## Dataset Download
 |             Dataset                 |            Google Drive             |            Description            |
 |:----------------------------:|:-----------------------------------:|:----------------------------------:|
-| YDLD sample images           |               [link](https://drive.google.com/file/d/1RyFzS1q0rxtUx_Wt18Mbuj3i48TwY1kg/view?usp=drive_link)                 | A hundred sample images of the YDLD dataset. |
+| YDLD           |               [link](https://drive.google.com/drive/folders/1PHG5xZSnIDUJMoNKbopH95pQrtZMcND7?usp=sharing)                 | YDLD dataset |
 
 ## Weight File Download
 
 |                Detector              |            Google Drive             |       mAP             |         Description            |
 |:----------------------------:|:-----------------------------------:|:-----------------------------------:|:----------------------------------:|
 | [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/12oX3iSd9BGsxtkgNWjXiY75bxoq94UU3/view?usp=drive_link)          |  22.6     | The pre-trained weight file for DINO detector. |
+| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/17SyGj83UKhrRf4pZNYc04H-S2lEw3-B8/view?usp=sharing)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
+
 
 ## Prerequisites
 * We highly recommend installing the recommended settings of mmdetection on your system. Please refer this [link](https://mmdetection.readthedocs.io/en/latest/get_started.html) 
@@ -101,6 +103,9 @@ python setup.py develop
 pip install "git+https://github.com/jwwangchn/cocoapi-aitod.git#subdirectory=aitodpycocotools"
 ```
 
+5. Download and unzip YDLD dataset.
+
+6. Create a symbolic link to data/YDLD 
 
 
 ## Running the demo

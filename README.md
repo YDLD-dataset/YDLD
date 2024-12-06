@@ -65,14 +65,14 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 ## Dataset Download
 |             Dataset                 |            Google Drive             |            Description            |
 |:----------------------------:|:-----------------------------------:|:----------------------------------:|
-| YDLD           |               [link](https://drive.google.com/drive/folders/1PHG5xZSnIDUJMoNKbopH95pQrtZMcND7?usp=sharing)                 | YDLD dataset |
+| YDLD           |               [link](https://)                 | YDLD dataset |
 
 ## Weight File Download
 
 |                Detector              |            Google Drive             |       mAP             |         Description            |
 |:----------------------------:|:-----------------------------------:|:-----------------------------------:|:----------------------------------:|
 | [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/12oX3iSd9BGsxtkgNWjXiY75bxoq94UU3/view?usp=drive_link)          |  22.6     | The pre-trained weight file for DINO detector. |
-| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)          |               [ link](https://drive.google.com/file/d/17SyGj83UKhrRf4pZNYc04H-S2lEw3-B8/view?usp=sharing)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
+| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)          |               [ link](https://)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
 
 
 ## Prerequisites

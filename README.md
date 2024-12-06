@@ -36,8 +36,8 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |                                       |  Detectors                                      | Publications | Year | mAP  | AP50 | AP75 | APvt | APt  | APs  | APm  |
 |:----------------------------------------------:|:----------------------------------------------:|:------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |1| SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
-|2| [SS-FLD w/t DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
-|3| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
+|2| [SS-FLD w/t DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
+|3| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
 |4| RFLA w/t PAA                                 |     ECCV     | 2022 | 21.6 | 50.8 | 14.7 | 11.0 | 19.4 | 33.4 | 40.2 |
 |5| PAA                                            |     ECCV     | 2020 | 21.6 | 48.0 | 16.1 |  9.7 | 18.0 | 34.6 | 43.6 |
 |6| ConsistentTeacher                              |     CVPR     | 2023 | 19.1 | 42.6 | 14.7 |  7.4 | 15.0 | 31.7 | 42.7 |
@@ -72,7 +72,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |                Detector              |            Google Drive             |       mAP             |         Description            |
 |:----------------------------:|:-----------------------------------:|:-----------------------------------:|:----------------------------------:|
 | [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/12oX3iSd9BGsxtkgNWjXiY75bxoq94UU3/view?usp=drive_link)          |  22.6     | The pre-trained weight file for DINO detector. |
-| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/17SyGj83UKhrRf4pZNYc04H-S2lEw3-B8/view?usp=sharing)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
+| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)          |               [ link](https://drive.google.com/file/d/17SyGj83UKhrRf4pZNYc04H-S2lEw3-B8/view?usp=sharing)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
 
 
 ## Prerequisites

@@ -135,6 +135,6 @@ python demo/image_demo.py <your img path> configs/ydld/ydld_dino_12e.py --weight
 
 ## License
 
-The annotations in this dataset are licensed under the CC BY-NC-ND 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license.
+The annotations in this dataset and the codes are licensed under the CC BY-NC-ND 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license.
 
 The copyright of the images remains with YouTube and the respective original creators. Users should refer to [YouTube's copyright policies](https://www.youtube.com/about/copyright/) and the original creators' terms for any use of the images.

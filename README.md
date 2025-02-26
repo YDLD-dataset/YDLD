@@ -1,7 +1,5 @@
 # YouTube Driving Light Detection (YDLD) Dataset
 
-**We are reorganizing the code to improve readability and will release it as soon as possible.**
-**We are also correcting some erroneous and missing annotations. We will continuously publish updated annotation files.**
 
 ## Overview
 
@@ -19,10 +17,6 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 
 
 
-<!-- * **The full YDLD dataset will be released soon!** -->
-* **We are reorganizing the code to improve readability and will release it as soon as possible.**
-* **We are also correcting some erroneous and missing annotations. We will continuously publish updated annotation files.**
-
 ## SS-FLD 
 
 ![Figures_001](Figures/SS-FLD1.png)
@@ -35,7 +29,7 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
   
 |                                       |  Detectors                                      | Publications | Year | mAP  | AP50 | AP75 | APvt | APt  | APs  | APm  |
 |:----------------------------------------------:|:----------------------------------------------:|:------------:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
-|1| SS-FLD w/t RFLD                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
+|1| [SS-FLD w/t RFLA](https://github.com/YDLD-dataset/YDLD/blob/master/mmdet_ssod/configs/ss-fld/ssfld_paa_rfla.py)                                |   Proposed   |      | 26.0 | 58.3 | 19.0 | 12.8 | 24.8 | 39.2 | 43.4 |
 |2| [SS-FLD w/t DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)                                |   Proposed   |      | 25.6 | 57.6 | 19.1 | 12.7 | 23.1 | 38.6 | 48.0 |
 |3| [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)                                             |     ICLR     | 2023 | 22.6 | 51.6 | 16.3 | 10.5 | 19.0 | 35.2 | 47.2 |
 |4| RFLA w/t PAA                                 |     ECCV     | 2022 | 21.6 | 50.8 | 14.7 | 11.0 | 19.4 | 33.4 | 40.2 |
@@ -72,8 +66,8 @@ The **YouTube Driving Light Detection (YDLD) dataset**, designed to address the 
 |                Detector              |            Google Drive             |       mAP             |         Description            |
 |:----------------------------:|:-----------------------------------:|:-----------------------------------:|:----------------------------------:|
 | [DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_12e.py)          |               [ link](https://drive.google.com/file/d/12oX3iSd9BGsxtkgNWjXiY75bxoq94UU3/view?usp=drive_link)          |  22.6     | The pre-trained weight file for DINO detector. |
-| [SS-FLD w/ DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)          |               [ link](https://drive.google.com/file/d/1INRmL7mCFcGynf3iPeYypSJIIzp3dPC7/view?usp=drive_link)          |  25.6     | The pre-trained weight file for SS-FLD w/ DINO detector. |
-
+| [SS-FLD w/t DINO](https://github.com/YDLD-dataset/YDLD/blob/master/mmdetection/configs/ydld/ydld_dino_lf_12e.py)          |               [ link](https://drive.google.com/file/d/1INRmL7mCFcGynf3iPeYypSJIIzp3dPC7/view?usp=drive_link)          |  25.6     | The pre-trained weight file for SS-FLD w/t DINO detector. |
+| [SS-FLD w/t RFLA](https://github.com/YDLD-dataset/YDLD/blob/master/mmdet_ssod/configs/ss-fld/ssfld_paa_rfla.py)          |               [ link](https://drive.google.com/file/d/1WVM5OnXcbKdBGjf0fSRPEPExCd2er30X/view?usp=drive_link)          |  26.0     | The pre-trained weight file for SS-FLD w/t RFLA detector. |
 
 ## Prerequisites
 * We highly recommend installing the recommended settings of mmdetection on your system. Please refer this [link](https://mmdetection.readthedocs.io/en/latest/get_started.html) 
@@ -138,3 +132,7 @@ python demo/image_demo.py <your img path> configs/ydld/ydld_dino_12e.py --weight
 The annotations in this dataset are licensed under the CC BY-NC-ND 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license.
 
 The copyright of the images remains with YouTube and the respective original creators. Users should refer to [YouTube's copyright policies](https://www.youtube.com/about/copyright/) and the original creators' terms for any use of the images.
+
+## Acknowledgement
+
+Thank you for [MMDetection](https://github.com/open-mmlab/mmdetection), [RFLA](https://github.com/Chasel-Tsui/mmdet-rfla), [ConsistentTeacher](https://github.com/Adamdad/ConsistentTeacher)!

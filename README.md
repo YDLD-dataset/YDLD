@@ -127,6 +127,26 @@ python demo/image_demo.py <your img path> configs/ydld/ydld_dino_12e.py --weight
 ![Figures_003](Figures/demo2.png)
 ![Figures_004](Figures/demo3.png)
 
+## Citation
+
+Please cite our paper if you find this repo helpful:
+
+```
+@inproceedings{NeurIPS24_YDLD,
+
+title = {A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection},
+
+author = {Baek, Jae-Yong and Yoo, Yong-Sang and Bae, Seung-Hwan},
+
+booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+
+year = {2024},
+
+url = {https://openreview.net/forum?id=jz2CTTCABH}
+
+}
+```
+
 ## License
 
 The annotations in this dataset are licensed under the CC BY-NC-ND 4.0 license. Redistribution and use of the dataset for non-commercial purposes should follow this license.

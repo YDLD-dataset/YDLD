@@ -131,7 +131,7 @@ python demo/image_demo.py <your img path> configs/ydld/ydld_dino_12e.py --weight
 
 Please cite our paper if you find this repo helpful:
 
-```
+```BibTeX
 @inproceedings{NeurIPS24_YDLD,
 
 title = {A New Multi-Source Light Detection Benchmark and Semi-Supervised Focal Light Detection},
